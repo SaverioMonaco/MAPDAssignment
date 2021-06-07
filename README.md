@@ -4,7 +4,7 @@
 #### [Hilario Capettini](https://github.com/hcapettini2/)
 #### [Saverio Monaco](https://github.com/SaverioMonaco/)
 
-1. Error detecting
+1. Redundancy
 2. Cryptography 
 3. Object Storage
 4. Rest APIs & Block Chain Technology 
