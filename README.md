@@ -1,8 +1,8 @@
 # Final assignment of “Management and Analysis of Physics Datasets”- Part 2
 
-#### Gerardo Carmona
-#### Hilario Capettini
-#### Saverio Monaco
+#### [Javier Gerardo Carmona](https://github.com/eigen-carmona/)  
+#### [Hilario Capettini](https://github.com/hcapettini2/)
+#### [Saverio Monaco](https://github.com/SaverioMonaco/)
 
 1. Error detecting
 2. Cryptography 
