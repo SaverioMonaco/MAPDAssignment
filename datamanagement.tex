@@ -1289,6 +1289,12 @@ status and the account information. At the time of writing the initial
 birth account of the Block Chain contained 1M coins ( ``genesis'' :
 1000000 ) :
 
+    \begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{datamanagement_files/datamanagement_52_0.png}
+	\end{center}
+	{ \hspace*{\fill} \\}
+
+
 The REST responses are given in JSON format. Our REST API uses secure
 HTTP protocol and it is based on two HTTP methods:
 
@@ -1513,6 +1519,11 @@ up being unsuccessful. (See Appendix)
 block in the Block
 Chain:}\label{the-server-has-a-function-to-compute-a-hash-of-a-block-in-the-block-chain}}
 
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{datamanagement_files/datamanagement_52_1.png}
+\end{center}
+{ \hspace*{\fill} \\}
+
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{35}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
@@ -1527,7 +1538,13 @@ Chain:}\label{the-server-has-a-function-to-compute-a-hash-of-a-block-in-the-bloc
     
     \PY{k}{return} \PY{n}{hashlib}\PY{o}{.}\PY{n}{sha256}\PY{p}{(}\PY{n}{block\PYZus{}of\PYZus{}string}\PY{o}{.}\PY{n}{encode}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{hexdigest}\PY{p}{(}\PY{p}{)}
 
-\PY{n}{calculate\PYZus{}hash}\PY{p}{(}\PY{l+m+mi}{2250}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{GitPush}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{d30ac7cf770b3db510ae388fc84160534c805d93c681c5dcbb8b1c8933e87525}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+m+mi}{301}\PY{p}{,}\PY{l+m+mi}{1623770741}\PY{p}{)}
+\PY{n}{calculate\PYZus{}hash}\PY{p}{(}
+	\PY{l+m+mi}{2250}\PY{p}{,}
+	\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{GitPush}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+	\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{d30ac7cf770b3db510ae388fc84160534c805d93c681c5dcbb8b1c8933e87525}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+	\PY{l+m+mi}{301}\PY{p}{,}
+	\PY{l+m+mi}{1623770741}
+	\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
