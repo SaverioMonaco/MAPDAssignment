@@ -155,7 +155,7 @@
     \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
     % Document parameters
     % Document title
-    \title{datamanagement}
+    \title{Final assignment of ``Management and Analysis of Physics Datasets''- Module B}
     
     
     
@@ -378,20 +378,14 @@
     
     
 
-    
-    \hypertarget{final-assignment-of-management-and-analysis-of-physics-datasets--part-2}{%
-\section{Final assignment of ``Management and Analysis of Physics
-Datasets''- Part
-2}\label{final-assignment-of-management-and-analysis-of-physics-datasets--part-2}}
-
-    \hypertarget{gerardo-carmona}{%
-\paragraph{Gerardo Carmona}\label{gerardo-carmona}}
+\hypertarget{gerardo-carmona}{%
+	\paragraph{Gerardo Carmona}\label{gerardo-carmona}}
 
 \hypertarget{saverio-monaco}{%
-\paragraph{Saverio Monaco}\label{saverio-monaco}}
+	\paragraph{Saverio Monaco}\label{saverio-monaco}}
 
-    \hypertarget{fun-exercise}{%
-\subsection{Fun Exercise}\label{fun-exercise}}
+    
+%\subsection{Fun Exercise}\label{fun-exercise}}
 
 You might have seen this kind of puzzles on social media. It should be
 straight-forward for you to understand which operations connect the two
@@ -418,7 +412,7 @@ For all expression, we can replace \(f(a,b)\) with \(a\oplus b\), thus
 obtaining \(100\oplus 101 = 001 = 1\) for ``\(4+5\)''.
 
     \hypertarget{redundancy}{%
-\subsection{1 Redundancy}\label{redundancy}}
+\section{Redundancy}\label{redundancy}}
 
 We are programming a file based RAID-4 software algorithm. For this
 purpose we are converting a single input (\textbf{raid4.input}) file
@@ -521,7 +515,7 @@ q0=0\textsuperscript{4}8\^{}12 & q1 & q2 & q3 & q4\tabularnewline
 \end{tcolorbox}
 
     \hypertarget{write-a-program-cc-r-or-python-which-produces-four-striped-data-and-one-parity-file-as-described-above-using-the-given-input-file.}{%
-\subsubsection{1.1 Write a program (C,C++, R or Python), which produces
+\subsection{Write a program (C,C++, R or Python), which produces
 four striped data and one parity file as described above using the given
 input
 file.}\label{write-a-program-cc-r-or-python-which-produces-four-striped-data-and-one-parity-file-as-described-above-using-the-given-input-file.}}
@@ -598,7 +592,7 @@ array([119,   1,  14, {\ldots},   4,  79,   3], dtype=uint8)
 \end{tcolorbox}
         
     \hypertarget{extend-the-program-to-compute-additionally-the-parity-of-all-bytes-within-one-stripe-file.}{%
-\subsubsection{1.2 Extend the program to compute additionally the parity
+\subsection{Extend the program to compute additionally the parity
 of all bytes within one stripe
 file.}\label{extend-the-program-to-compute-additionally-the-parity-of-all-bytes-within-one-stripe-file.}}
 
@@ -635,7 +629,7 @@ The size overhead is 25.0\%
 \end{tcolorbox}
 
     \hypertarget{what-is-the-5-byte-parity-value-if-you-write-it-it-in-hexadecimal-format-like-p5-0xq0q1q2q3q4-where-the-qx-are-the-hexadecimal-parity-bytes-computed-by-xor-ing-all-bytes-in-each-stripe-file.}{%
-\subsubsection{\texorpdfstring{1.3 What is the 5-byte parity value if
+\subsection{\texorpdfstring{What is the 5-byte parity value if
 you write it it in hexadecimal format like \(P^5\)
 =0x{[}q0{]}{[}q1{]}{[}q2{]}{[}q3{]}{[}q4{]}, where the {[}qx{]} are the
 hexadecimal parity bytes computed by xor-ing all bytes in each stripe
@@ -661,7 +655,7 @@ The 5-parity in hex format is 0xa5\_07\_a0\_9c\_9e
     \end{Verbatim}
 
     \hypertarget{if-you-create-a-sixth-stripe-file-which-contains-the-row-wise-parities-of-the-five-stripe-files-what-would-be-the-contents-of-this-file}{%
-\subsubsection{1.4 If you create a sixth stripe file, which contains the
+\subsection{If you create a sixth stripe file, which contains the
 row-wise parities of the five stripe files, what would be the contents
 of this
 file?}\label{if-you-create-a-sixth-stripe-file-which-contains-the-row-wise-parities-of-the-five-stripe-files-what-would-be-the-contents-of-this-file}}
@@ -685,7 +679,7 @@ same value, which is of course the case for every row in the expression
 above.
 
     \hypertarget{after-some-time-you-recompute-the-5-byte-parity-value-as-in-1.3.-now-the-result-is-p5-0x-a5-07-a0-01-9e.-something-has-been-corrupted.-you-want-to-reconstruct-the-original-file-raid4.input-using-the-5-stripe-files.}{%
-\subsubsection{\texorpdfstring{1.5 After some time you recompute the
+\subsection{\texorpdfstring{After some time you recompute the
 5-byte parity value as in 1.3. Now the result is \(P^5\) = 0x a5 07 a0
 01 9e. Something has been corrupted. You want to reconstruct the
 original file raid4.input using the 5 stripe
@@ -771,7 +765,7 @@ array([ 70,  51, 229, {\ldots},  55,  69,   0], dtype=uint8)
 \end{tcolorbox}
 
     \hypertarget{cryptography}{%
-\subsection{2 Cryptography}\label{cryptography}}
+\section{Cryptography}\label{cryptography}}
 
 The Caesar cipher is named for Julius Caesar, who used an alphabet where
 decrypting would shift three letters to the left. A friend has emailed
@@ -787,7 +781,7 @@ e.g.~for the second letter the nonce added is 6, for the third letter it
 is 7 aso.
 
     \hypertarget{is-this-symmetric-or-asymmetric-encryption-and-explain-why}{%
-\subsubsection{2.1 Is this symmetric or asymmetric encryption and
+\subsection{Is this symmetric or asymmetric encryption and
 explain
 why?}\label{is-this-symmetric-or-asymmetric-encryption-and-explain-why}}
 
@@ -799,7 +793,7 @@ only need the public key just containing the information about the
 shifts of the characters.
 
     \hypertarget{write-a-small-brute-force-program-which-tests-keys-from-0..255-and-use-a-dictionary-approach-to-figure-out-the-original-message.}{%
-\subsubsection{2.2 Write a small brute force program which tests keys
+\subsection{Write a small brute force program which tests keys
 from 0..255 and use a dictionary approach to figure out the original
 message.}\label{write-a-small-brute-force-program-which-tests-keys-from-0..255-and-use-a-dictionary-approach-to-figure-out-the-original-message.}}
 
@@ -896,12 +890,15 @@ string from an integer!
     The used key is 10, the original message text is Padova rocks!
 
     \hypertarget{object-storage}{%
-\subsection{3 Object Storage}\label{object-storage}}
+\section{Object Storage}\label{object-storage}}
 
 In an object storage system we are mapping objects by name to locations
 using a hash table. Imagine we have a system with ten hard disks (10
 locations). We enumerate the location of a file using an index of the
 hard disk {[}0..9{]}.
+
+<img src="https://i.ibb.co/dPLWgCs/Screenshot-at-2021-06-02-20-43-04.png" width="800" height="600"/>
+
 
 Our hash algorithm for placement produces hashes, which are distributed
 uniform over the value space for a flat input key distribution.
@@ -923,7 +920,7 @@ random locations until one hard disk is full. \textbf{Hint:} a hard disk
 is full once you have stored hundred 10GB files.
 
     \hypertarget{write-a-program-in-python-r-or-using-root-which-simulates-the-placement-of-10gb-files-to-random-locations-and-account-the-used-space-on-each-hard-disk.-once-the-first-hard-disk-is-full-you-stop-to-place-files.}{%
-\subsubsection{3.1Write a program in Python, R or using ROOT, which
+\subsection{Write a program in Python, R or using ROOT, which
 simulates the placement of 10GB files to random locations and account
 the used space on each hard disk. Once the first hard disk is full, you
 stop to place
@@ -1020,7 +1017,7 @@ Possibly visualise the distribution similar to the histogram above.
     { \hspace*{\fill} \\}
     
     \hypertarget{a-how-many-files-did-you-manage-to-place}{%
-\subsubsection{3.1a How many files did you manage to
+\subsubsection{How many files did you manage to
 place?}\label{a-how-many-files-did-you-manage-to-place}}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
@@ -1035,7 +1032,7 @@ place?}\label{a-how-many-files-did-you-manage-to-place}}
     \end{Verbatim}
 
     \hypertarget{b-what-is-the-percentage-of-total-used-space-on-all-hard-disks-in-the-moment-the-first-disk-is-full}{%
-\subsubsection{3.1b What is the percentage of total used space on all
+\subsubsection{What is the percentage of total used space on all
 hard disks in the moment the first disk is
 full?}\label{b-what-is-the-percentage-of-total-used-space-on-all-hard-disks-in-the-moment-the-first-disk-is-full}}
 
@@ -1053,7 +1050,7 @@ full?}\label{b-what-is-the-percentage-of-total-used-space-on-all-hard-disks-in-t
     \end{Verbatim}
 
     \hypertarget{repeat-the-same-task-placing-1gb-files-until-the-first-hard-disk-is-full.}{%
-\subsubsection{3.2 Repeat the same task placing 1GB files until the
+\subsection{Repeat the same task placing 1GB files until the
 first hard disk is
 full.}\label{repeat-the-same-task-placing-1gb-files-until-the-first-hard-disk-is-full.}}
 
@@ -1076,7 +1073,7 @@ full.}\label{repeat-the-same-task-placing-1gb-files-until-the-first-hard-disk-is
     { \hspace*{\fill} \\}
     
     \hypertarget{a-how-many-files-did-you-manage-to-place}{%
-\subsubsection{3.2a How many files did you manage to
+\subsubsection{How many files did you manage to
 place?}\label{a-how-many-files-did-you-manage-to-place}}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
@@ -1091,7 +1088,7 @@ place?}\label{a-how-many-files-did-you-manage-to-place}}
     \end{Verbatim}
 
     \hypertarget{b-what-is-the-percentage-of-total-used-space-on-all-hard-disks-in-the-moment-the-first-disk-is-full}{%
-\subsubsection{3.2b What is the percentage of total used space on all
+\subsubsection{What is the percentage of total used space on all
 hard disks in the moment the first disk is
 full?}\label{b-what-is-the-percentage-of-total-used-space-on-all-hard-disks-in-the-moment-the-first-disk-is-full}}
 
@@ -1109,7 +1106,7 @@ full?}\label{b-what-is-the-percentage-of-total-used-space-on-all-hard-disks-in-t
     \end{Verbatim}
 
     \hypertarget{based-on-this-observation-why-do-you-think-object-storage-typically-stores-fixed-size-blocks-of-4m-and-not-files-of-gbs-size-as-a-whole-so-called-block-storage-approach}{%
-\subsubsection{3.3 Based on this observation: why do you think object
+\subsection{Based on this observation: why do you think object
 storage typically stores fixed size blocks of 4M and not files of GBs
 size as a whole? (so called block storage
 approach)}\label{based-on-this-observation-why-do-you-think-object-storage-typically-stores-fixed-size-blocks-of-4m-and-not-files-of-gbs-size-as-a-whole-so-called-block-storage-approach}}
@@ -1155,7 +1152,7 @@ having to stop.
     { \hspace*{\fill} \\}
     
     \hypertarget{compute-the-average-used-space-on-all-hard-disks-and-the-standard-deviation-for-the-average-used-space-for-10-gb-and-1gb-and-4m-files.-how-is-the-standard-deviation-correlated-to-the-block-size-and-why-if-we-now-repeat-such-an-experiment-for-many-more-thousands-of-hard-disks-which-kind-of-distribution-do-you-get-when-you-do-a-histogram-of-the-used-space-of-all-hard-disks}{%
-\subsubsection{3.4. Compute the average used space on all hard disks and
+\subsection{Compute the average used space on all hard disks and
 the standard deviation for the average used space for 10 GB and 1GB and
 4M files. How is the standard deviation correlated to the block size and
 why? If we now repeat such an experiment for many more (thousands) of
@@ -1281,7 +1278,7 @@ follows a Pascal distribution, which can in turn be fitted with a normal
 distribution.
 
     \hypertarget{rest-apis-block-chain-technology}{%
-\subsection{4 Rest APIs \& Block Chain
+\section{Rest APIs \& Block Chain
 Technology}\label{rest-apis-block-chain-technology}}
 
     Under https://pansophy.app:8443 you find a Crypto Coin Server exporting
@@ -1417,8 +1414,10 @@ of 10 seconds!
 \end{Verbatim}
 \end{tcolorbox}
 
+\subsection{Rest API transactions}\label{rest-api-transactions}
+
     \hypertarget{use-the-rest-api-and-the-curl-command-to-transfer-coins-of-the-genesis-or-any-other-account-on-your-own-team-account.}{%
-\subsubsection{4.1.1 Use the REST API and the curl command to transfer
+\subsubsection{Use the REST API and the curl command to transfer
 coins of the genesis or any other account on your own team
 account.}\label{use-the-rest-api-and-the-curl-command-to-transfer-coins-of-the-genesis-or-any-other-account-on-your-own-team-account.}}
 
@@ -1470,7 +1469,7 @@ Balance after tansaction
     \end{Verbatim}
 
     \hypertarget{what-is-the-maximum-number-of-transactions-one-given-team-can-add-to-the-block-chain-in-one-day}{%
-\subsubsection{4.1.2 What is the maximum number of transactions one
+\subsubsection{What is the maximum number of transactions one
 given team can add to the Block Chain in one
 day?}\label{what-is-the-maximum-number-of-transactions-one-given-team-can-add-to-the-block-chain-in-one-day}}
 
@@ -1510,7 +1509,7 @@ Two methods were tried in order to bypass this limit, however they ended
 up being unsuccessful. (See Appendix)
 
     \hypertarget{the-server-has-a-function-to-compute-a-hash-of-a-block-in-the-block-chain}{%
-\subsubsection{4.2 The server has a function to compute a hash of a
+\subsection{The server has a function to compute a hash of a
 block in the Block
 Chain:}\label{the-server-has-a-function-to-compute-a-hash-of-a-block-in-the-block-chain}}
 
@@ -1540,7 +1539,7 @@ Chain:}\label{the-server-has-a-function-to-compute-a-hash-of-a-block-in-the-bloc
 \end{tcolorbox}
         
     \hypertarget{explain-what-this-function-does-and-why-is-this-the-key-for-block-chain-technology}{%
-\subsubsection{4.2.1 Explain what this function does and why is this
+\subsubsection{Explain what this function does and why is this
 `the key' for Block Chain
 technology?}\label{explain-what-this-function-does-and-why-is-this-the-key-for-block-chain-technology}}
 
@@ -1556,7 +1555,7 @@ Most importantly the hash is used for decorruption and security purposes
 (as explained later)
 
     \hypertarget{if-you-have-the-knowledge-of-the-hash-function-how-can-you-validate-the-contents-of-the-block-chain-you-received-using-a-get-request-to-make-sure-nobody-has-tampered-with-it-you-dont-need-to-implement-it-explain-the-algorithm-to-validate-a-block-chain}{%
-\subsubsection{4.2.2 If you have the knowledge of the hash function, how
+\subsubsection{If you have the knowledge of the hash function, how
 can you validate the contents of the Block Chain you received using a
 GET request to make sure, nobody has tampered with it? You don't need to
 implement it! Explain the algorithm to validate a Block
@@ -1569,7 +1568,7 @@ Being the hash generated using the contents as an input, we can generate
 the hash from the block and see if it maches the hash we already have.
 
     \hypertarget{why-might-the-get-rest-api-run-into-scalability-problems}{%
-\subsubsection{4.2.3 Why might the GET REST API run into scalability
+\subsubsection{Why might the GET REST API run into scalability
 problems?}\label{why-might-the-get-rest-api-run-into-scalability-problems}}
 
 Express the scalability behaviour of execution times of GET and POST
@@ -1586,7 +1585,7 @@ GET reads the whole document, the bigger the file is the longer it will
 take, it scales as O(n)
 
     \hypertarget{if-the-crypto-server-goes-down-the-way-it-is-implemented-it-loses-the-current-account-balances.-how-can-the-server-recompute-the-account-balances-after-a-restart-from-the-saved-block-chain}{%
-\subsubsection{4.2.4 If the Crypto server goes down, the way it is
+\subsubsection{If the Crypto server goes down, the way it is
 implemented it loses the current account balances. How can the server
 recompute the account balances after a restart from the saved Block
 Chain?}\label{if-the-crypto-server-goes-down-the-way-it-is-implemented-it-loses-the-current-account-balances.-how-can-the-server-recompute-the-account-balances-after-a-restart-from-the-saved-block-chain}}
@@ -1601,7 +1600,7 @@ Of course, this is not optimal if the number of all transactions is very
 high.
 
     \hypertarget{what-are-the-advantages-of-using-a-rest-api-and-json-in-a-client-server-architecture-what-are-possible-disadvantages}{%
-\subsubsection{4.2.5 What are the advantages of using a REST API and
+\subsubsection{What are the advantages of using a REST API and
 JSON in a client-server architecture? What are possible
 disadvantages?}\label{what-are-the-advantages-of-using-a-rest-api-and-json-in-a-client-server-architecture-what-are-possible-disadvantages}}
 
